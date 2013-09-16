@@ -1,0 +1,31 @@
+{
+  "css": {
+    "styles.css": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/css/main.css",
+        "/Users/borior/code/2014.okfestival.org/css/bootstrap-buttons.css"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/styles.css"
+      }
+    }
+  },
+  "binary": {
+    "cal.png": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/cal.png"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/cal.png"
+      }
+    },
+    "favicon.png": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/favicon.png"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/favicon.png"
+      }
+    }
+  }
+}

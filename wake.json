@@ -1,0 +1,18 @@
+{
+  "css": {
+    "sourceDirectory": "css",
+    "targetDirectory": "assets",
+    "sourceRoot": "",
+    "targets": {
+      "styles.css": ["main.css", "bootstrap-buttons.css"]
+    }
+  },
+  "binary": {
+    "sourceDirectory": "images",
+    "targetDirectory": "assets",
+    "targets": {
+      "**/*.*": ""
+    }
+  }
+}
+

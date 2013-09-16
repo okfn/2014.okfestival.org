@@ -1,0 +1,7 @@
+{
+  "name": "2014.okfestival.org",
+  "version": "0.0.1",
+  "devDependencies": {
+    "wake": ""
+  }
+}
