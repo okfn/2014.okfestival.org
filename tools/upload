@@ -1,0 +1,20 @@
+#!/bin/sh
+
+S3ARGS=
+if [ -n "$S3CFG" ]; then
+  S3ARGS="-c ${S3CFG}"
+fi
+
+set -eu
+
+s3cmd $S3ARGS \
+  sync \
+  -P \
+  --add-header='Cache-Control: public, max-age=31536000' \
+  assets/* s3://2014.okfestival.org/assets/
+
+s3cmd $S3ARGS \
+  sync \
+  -P \
+  --add-header='Cache-Control: public, max-age=600' \
+  index.html s3://2014.okfestival.org/
