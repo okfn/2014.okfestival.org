@@ -1,0 +1,68 @@
+.okfn-ribbon
+{
+  position:relative;
+  float:right;
+  width:48px;
+  height:40px;
+  margin-left:5px;
+}
+
+.okfn-ribbon a
+{
+  background-image:url(http://assets.okfn.org/web/images/okf-ribbon.png);
+  background-repeat:no-repeat;
+  background-position:center -27px;
+  width:48px;
+  height:73px;
+  display:block;
+  cursor:pointer;
+  text-indent:-999px;
+  overflow:hidden;
+  position:absolute;
+  z-index:1;
+}
+
+.fixed-okf-panel
+{
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:10000;
+}
+
+.fixed-okf-panel .okfn-ribbon
+{
+  position:relative;
+  right:-2px;
+  height:1px;
+}
+
+/* OKF Panel */
+.fixed-okf-panel .okfn-ribbon {
+  padding-right: 20px;
+}
+
+.fixed-okf-panel .okfn-ribbon,
+.fixed-okf-panel .okfn-ribbon a {
+  width: 209px;
+}
+.fixed-okf-panel .okfn-ribbon a {
+  background-image: url(../images/okf-ribbon.png);
+  background-position: center top;
+  height: 115px;
+  opacity: 0.9;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+.fixed-okf-panel .okfn-ribbon a:hover,
+.fixed-okf-panel .okfn-ribbon.active a {
+  opacity: 1.0;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  -ms-transition: opacity 0s linear;
+  transition: opacity 0s linear;
+}

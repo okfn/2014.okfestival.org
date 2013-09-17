@@ -30,7 +30,9 @@ a:hover, a:active {
 .container {
   background: #ffffff;
   background: rgba(255, 255, 255, 0.85);
-  margin-bottom: 60px;
+  margin: 30px 0;
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #444444;
 }
 
 .container > * {
@@ -55,7 +57,6 @@ a:hover, a:active {
   margin: 0;
   overflow: auto;
   width: 100%;
-  border-bottom: 1px solid #444444;
 }
 
 .blocks .block {
@@ -128,7 +129,7 @@ footer {
   color: #555;
   text-shadow: #aaa 1px 1px 0;
   font-size: 60%;
-  margin: 2em 20px;
+  margin: 30px;
 }
 
 footer p {
@@ -141,9 +142,15 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   text-decoration: underline;
 }
 
+@media (max-width: 767px) {
+  .fixed-okf-panel {
+     display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
-    margin: 2em auto;
+    margin: 30px auto;
     width: 768px;
     border: 1px solid #222222;
     border-radius: 4px;
@@ -178,7 +185,7 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 469px) {
   .icon {
     font-size: 20px;
   }

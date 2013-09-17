@@ -3,7 +3,8 @@
     "styles.css": {
       "sources": [
         "/Users/borior/code/2014.okfestival.org/css/main.css",
-        "/Users/borior/code/2014.okfestival.org/css/bootstrap-buttons.css"
+        "/Users/borior/code/2014.okfestival.org/css/bootstrap-buttons.css",
+        "/Users/borior/code/2014.okfestival.org/css/panel.css"
       ],
       "targets": {
         "min": "/Users/borior/code/2014.okfestival.org/assets/styles.css"
@@ -49,6 +50,14 @@
       ],
       "targets": {
         "min": "/Users/borior/code/2014.okfestival.org/assets/favicon.png"
+      }
+    },
+    "okf-ribbon.png": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/okf-ribbon.png"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/okf-ribbon.png"
       }
     },
     "twitter.png": {

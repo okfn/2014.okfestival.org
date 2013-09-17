@@ -4,7 +4,7 @@
     "targetDirectory": "assets",
     "sourceRoot": "",
     "targets": {
-      "styles.css": ["main.css", "bootstrap-buttons.css"]
+      "styles.css": ["main.css", "bootstrap-buttons.css", "panel.css"]
     }
   },
   "binary": {
