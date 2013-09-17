@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Gudea', Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 a:link, a:visited {
@@ -43,6 +43,15 @@ a:hover, a:active {
 .container h1 {
   padding-top: 0.4em;
   margin-top: 0;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container ul li {
+  margin: 10px 0;
 }
 
 .event-details {
