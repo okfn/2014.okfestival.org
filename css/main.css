@@ -68,6 +68,7 @@ a:hover, a:active {
 
 .blocks .block-inner {
   height: 78px;
+  min-height: 78px;
 }
 
 .icon {
@@ -124,18 +125,15 @@ a:hover, a:active {
 }
 
 footer {
-  background: #ffffff;
-  background: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid #555;
   color: #555;
+  text-shadow: #aaa 1px 1px 0;
   font-size: 60%;
-  margin: 40px 0 0 0;
-  width: 100%;
+  margin: 2em 20px;
 }
 
 footer p {
   margin: 0;
-  padding: 10px 15px 8px 15px;
+  padding: 0;
 }
 
 footer a:link, footer a:visited, footer a:hover, footer a:active {
@@ -149,6 +147,11 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
     width: 768px;
     border: 1px solid #222222;
     border-radius: 4px;
+  }
+
+  footer {
+    width: 768px;
+    margin: 2em auto;
   }
 
   .blocks {
@@ -175,7 +178,21 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
 
 }
 
-@media (max-width: 480px) {
-
+@media (max-width: 400px) {
+  .icon {
+    font-size: 20px;
+  }
+  .icon span {
+    padding-top: 30px;
+  }
+  .blocks .block-inner {
+    height: auto;
+  }
+  .signup .email {
+    width: 150px;
+  }
+  .signup p.explainer {
+    margin: 10px 0 12px 0;
+  }
 }
 
