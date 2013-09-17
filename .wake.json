@@ -19,12 +19,44 @@
         "min": "/Users/borior/code/2014.okfestival.org/assets/cal.png"
       }
     },
+    "dom-slice.jpg": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/dom-slice.jpg"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/dom-slice.jpg"
+      }
+    },
+    "dom.jpg": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/dom.jpg"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/dom.jpg"
+      }
+    },
+    "facebook.png": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/facebook.png"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/facebook.png"
+      }
+    },
     "favicon.png": {
       "sources": [
         "/Users/borior/code/2014.okfestival.org/images/favicon.png"
       ],
       "targets": {
         "min": "/Users/borior/code/2014.okfestival.org/assets/favicon.png"
+      }
+    },
+    "twitter.png": {
+      "sources": [
+        "/Users/borior/code/2014.okfestival.org/images/twitter.png"
+      ],
+      "targets": {
+        "min": "/Users/borior/code/2014.okfestival.org/assets/twitter.png"
       }
     }
   }

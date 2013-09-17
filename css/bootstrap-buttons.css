@@ -40,22 +40,15 @@
 
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #326BB2;
+  border-color: #2A5B98;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-primary.active {
   color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  background-image: none;
+  background-color: #2A5B98;
+  border-color: #244E83;
 }
