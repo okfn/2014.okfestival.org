@@ -1,9 +1,8 @@
 body {
-  background: rgb(50, 107, 178);
-  background: url(../images/dom.jpg) right bottom no-repeat,
-              url(../images/dom-slice.jpg) left bottom repeat-x,
+  background-color: rgb(50, 107, 178);
+  background: url(../images/dom.jpg) bottom right / auto 100% fixed no-repeat,
+              url(../images/dom-slice.jpg) bottom left / auto 100% fixed repeat-x,
               rgb(50, 107, 178);
-  background-attachment: fixed;
   color: #222222;
   line-height: 1.5;
   font-weight: 400;
