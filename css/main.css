@@ -211,3 +211,8 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   }
 }
 
+@media (max-height: 600px) {
+  body {
+    background-size: auto 600px, auto 600px;
+  }
+}
