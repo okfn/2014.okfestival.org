@@ -17,4 +17,4 @@ s3cmd $S3ARGS \
   sync \
   -P \
   --add-header='Cache-Control: public, max-age=600' \
-  index.html s3://2014.okfestival.org/
+  index.html okfestival2014.ics s3://2014.okfestival.org/
