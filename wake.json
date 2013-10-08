@@ -5,7 +5,7 @@
     "sourceRoot": "",
     "targetRoot": "_site/",
     "targets": {
-      "styles.css": ["main.css", "bootstrap-buttons.css", "panel.css"]
+      "styles.css": ["main.css", "bootstrap-buttons.css"]
     }
   },
   "binary": {

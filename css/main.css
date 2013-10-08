@@ -150,12 +150,6 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   text-decoration: underline;
 }
 
-@media (max-width: 767px) {
-  .fixed-okf-panel {
-     display: none;
-  }
-}
-
 @media (min-width: 768px) {
   .container {
     margin: 30px auto;
