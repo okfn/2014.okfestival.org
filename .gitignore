@@ -1,1 +1,5 @@
 /node_modules
+/_site
+/.bundle
+/.gems
+/.wake.json

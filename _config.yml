@@ -1,0 +1,14 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - css
+  - images
+  - node_modules
+  - package.json
+  - src
+  - tools
+  - wake.json
+
+wake:
+  mode: targets

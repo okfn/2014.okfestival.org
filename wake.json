@@ -1,15 +1,18 @@
 {
   "css": {
     "sourceDirectory": "css",
-    "targetDirectory": "assets",
+    "targetDirectory": "_site/assets",
     "sourceRoot": "",
+    "targetRoot": "_site/",
     "targets": {
       "styles.css": ["main.css", "bootstrap-buttons.css", "panel.css"]
     }
   },
   "binary": {
     "sourceDirectory": "images",
-    "targetDirectory": "assets",
+    "targetDirectory": "_site/assets",
+    "sourceRoot": "",
+    "targetRoot": "_site/",
     "targets": {
       "**/*.*": ""
     }

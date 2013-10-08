@@ -11,10 +11,10 @@ s3cmd $S3ARGS \
   sync \
   -P \
   --add-header='Cache-Control: public, max-age=31536000' \
-  assets/* s3://2014.okfestival.org/assets/
+  _site/assets/* s3://2014.okfestival.org/assets/
 
 s3cmd $S3ARGS \
   sync \
   -P \
   --add-header='Cache-Control: public, max-age=600' \
-  index.html okfestival2014.ics s3://2014.okfestival.org/
+  _site/index.html _site/okfestival2014.ics s3://2014.okfestival.org/
